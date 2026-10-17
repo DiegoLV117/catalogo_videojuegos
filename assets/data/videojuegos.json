@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "desarrollador": "Nintendo",
+    "anio": 2017,
+    "genero": "Aventura",
+    "plataformas": ["Nintendo Switch", "Wii U"],
+    "calificacion": 9.7,
+    "imagenUrl": "https://picsum.photos/seed/zelda/800/450",
+    "descripcion": "Explora un reino enorme en ruinas con total libertad, resolviendo santuarios y enfrentando a Ganon a tu propio ritmo.",
+    "ficha": { "clasificacion": "E10+", "modos": ["Un jugador"], "duracionHoras": 50 }
+  },
+  {
+    "id": 2,
+    "titulo": "Minecraft",
+    "desarrollador": "Mojang Studios",
+    "anio": 2011,
+    "genero": "Sandbox",
+    "plataformas": ["PC", "Consolas", "Móvil"],
+    "calificacion": 9.0,
+    "imagenUrl": "https://picsum.photos/seed/minecraft/800/450",
+    "descripcion": "Construye, explora y sobrevive en un mundo hecho de bloques que se genera de forma infinita.",
+    "ficha": { "clasificacion": "E10+", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 100 }
+  },
+  {
+    "id": 3,
+    "titulo": "Red Dead Redemption 2",
+    "desarrollador": "Rockstar Games",
+    "anio": 2018,
+    "genero": "Acción",
+    "plataformas": ["PlayStation 4", "Xbox One", "PC"],
+    "calificacion": 9.6,
+    "imagenUrl": "https://picsum.photos/seed/reddead/800/450",
+    "descripcion": "Vive el final del Viejo Oeste como Arthur Morgan, miembro de una banda de forajidos en decadencia.",
+    "ficha": { "clasificacion": "M", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 50 }
+  },
+  {
+    "id": 4,
+    "titulo": "Hollow Knight",
+    "desarrollador": "Team Cherry",
+    "anio": 2017,
+    "genero": "Metroidvania",
+    "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+    "calificacion": 9.0,
+    "imagenUrl": "https://picsum.photos/seed/hollowknight/800/450",
+    "descripcion": "Desciende a un reino subterráneo de insectos lleno de secretos, jefes desafiantes y caminos ocultos.",
+    "ficha": { "clasificacion": "E10+", "modos": ["Un jugador"], "duracionHoras": 27 }
+  },
+  {
+    "id": 5,
+    "titulo": "Elden Ring",
+    "desarrollador": "FromSoftware",
+    "anio": 2022,
+    "genero": "RPG",
+    "plataformas": ["PC", "PlayStation 5", "Xbox Series X|S"],
+    "calificacion": 9.5,
+    "imagenUrl": "https://picsum.photos/seed/eldenring/800/450",
+    "descripcion": "Un mundo abierto de fantasía oscura con combate exigente y libertad para elegir tu camino.",
+    "ficha": { "clasificacion": "M", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 55 }
+  },
+  {
+    "id": 6,
+    "titulo": "Stardew Valley",
+    "desarrollador": "ConcernedApe",
+    "anio": 2016,
+    "genero": "Simulación",
+    "plataformas": ["PC", "Nintendo Switch", "Móvil"],
+    "calificacion": 8.9,
+    "imagenUrl": "https://picsum.photos/seed/stardew/800/450",
+    "descripcion": "Hereda una granja abandonada, cultiva, pesca y forma amistades con los habitantes del pueblo.",
+    "ficha": { "clasificacion": "E", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 53 }
+  },
+  {
+    "id": 7,
+    "titulo": "God of War",
+    "desarrollador": "Santa Monica Studio",
+    "anio": 2018,
+    "genero": "Acción",
+    "plataformas": ["PlayStation 4", "PC"],
+    "calificacion": 9.4,
+    "imagenUrl": "https://picsum.photos/seed/godofwar/800/450",
+    "descripcion": "Kratos y su hijo Atreus emprenden un viaje por la mitología nórdica lleno de combates intensos.",
+    "ficha": { "clasificacion": "M", "modos": ["Un jugador"], "duracionHoras": 21 }
+  },
+  {
+    "id": 8,
+    "titulo": "Super Mario Odyssey",
+    "desarrollador": "Nintendo",
+    "anio": 2017,
+    "genero": "Plataformas",
+    "plataformas": ["Nintendo Switch"],
+    "calificacion": 9.7,
+    "imagenUrl": "https://picsum.photos/seed/marioodyssey/800/450",
+    "descripcion": "Mario viaja por reinos muy variados junto a Cappy, una gorra capaz de tomar el control de enemigos.",
+    "ficha": { "clasificacion": "E10+", "modos": ["Un jugador", "Cooperativo local"], "duracionHoras": 13 }
+  },
+  {
+    "id": 9,
+    "titulo": "Celeste",
+    "desarrollador": "Maddy Makes Games",
+    "anio": 2018,
+    "genero": "Plataformas",
+    "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+    "calificacion": 9.1,
+    "imagenUrl": "https://picsum.photos/seed/celeste/800/450",
+    "descripcion": "Ayuda a Madeline a escalar una montaña mientras enfrenta sus propios miedos en niveles de precisión.",
+    "ficha": { "clasificacion": "E10+", "modos": ["Un jugador"], "duracionHoras": 8 }
+  },
+  {
+    "id": 10,
+    "titulo": "Forza Horizon 5",
+    "desarrollador": "Playground Games",
+    "anio": 2021,
+    "genero": "Carreras",
+    "plataformas": ["Xbox Series X|S", "Xbox One", "PC"],
+    "calificacion": 9.2,
+    "imagenUrl": "https://picsum.photos/seed/forza5/800/450",
+    "descripcion": "Recorre México en un festival de carreras de mundo abierto con cientos de autos disponibles.",
+    "ficha": { "clasificacion": "E", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 18 }
+  }
+]
