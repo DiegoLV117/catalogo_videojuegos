@@ -4,6 +4,7 @@ import '../../data/models/videojuego_model.dart';
 import '../../data/services/videojuegos_service.dart';
 import '../widgets/game_card.dart';
 import '../widgets/search_field.dart';
+import 'detalle_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -100,7 +101,10 @@ class _HomeScreenState extends State<HomeScreen> {
         final juego = _filtrados[index];
         return GameCard(
           juego: juego,
-          onTap: () {}, // se conecta con DetalleScreen en la siguiente rama
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => DetalleScreen(juego: juego)),
+          ),
         );
       },
     );
