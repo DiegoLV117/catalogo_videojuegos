@@ -1,5 +1,5 @@
 class AppStrings {
-  static const nombreApp = 'Catálogo de Videojuegos';
+  static const nombreApp = 'GameDex';
   static const materia = 'Desarrollo de Aplicaciones Móviles';
   static const unidad = 'Unidad 3: Manejo de Estados, Arquitectura y Servicios';
   static const descripcion =
