@@ -31,7 +31,7 @@
     "genero": "Acción",
     "plataformas": ["PlayStation 4", "Xbox One", "PC"],
     "calificacion": 9.6,
-    "imagenUrl": "https://picsum.photos/seed/reddead/800/450",
+    "imagenUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg",
     "descripcion": "Vive el final del Viejo Oeste como Arthur Morgan, miembro de una banda de forajidos en decadencia.",
     "ficha": { "clasificacion": "M", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 50 }
   },
@@ -43,7 +43,7 @@
     "genero": "Metroidvania",
     "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
     "calificacion": 9.0,
-    "imagenUrl": "https://picsum.photos/seed/hollowknight/800/450",
+    "imagenUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg",
     "descripcion": "Desciende a un reino subterráneo de insectos lleno de secretos, jefes desafiantes y caminos ocultos.",
     "ficha": { "clasificacion": "E10+", "modos": ["Un jugador"], "duracionHoras": 27 }
   },
@@ -55,7 +55,7 @@
     "genero": "RPG",
     "plataformas": ["PC", "PlayStation 5", "Xbox Series X|S"],
     "calificacion": 9.5,
-    "imagenUrl": "https://picsum.photos/seed/eldenring/800/450",
+    "imagenUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg",
     "descripcion": "Un mundo abierto de fantasía oscura con combate exigente y libertad para elegir tu camino.",
     "ficha": { "clasificacion": "M", "modos": ["Un jugador", "Multijugador"], "duracionHoras": 55 }
   },
