@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
             child: SearchField(
-              hint: 'Buscar por título, género o estudio',
+              hint: 'Escribe un título, género o estudio',
               onChanged: _buscar,
             ),
           ),
