@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const primario = Color(0xFF5B6C8F); // azul pizarra
+  static const primario = Color(0xFF3E6A8A); // azul acero
   static const secundario = Color(0xFF8FA7C4);
   static const fondo = Color(0xFFF5F7FA);
   static const superficie = Colors.white;
