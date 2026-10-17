@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'presentation/screens/home_screen.dart';
+import 'core/constants/app_strings.dart';
+import 'core/theme/app_theme.dart';
+import 'presentation/screens/splash_screen.dart';
 
 void main() {
   runApp(const CatalogoApp());
@@ -12,13 +14,10 @@ class CatalogoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Catálogo de Videojuegos',
+      title: AppStrings.nombreApp,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: const Color(0xFF5B6C8F),
-      ),
-      home: const HomeScreen(),
+      theme: AppTheme.claro,
+      home: const SplashScreen(),
     );
   }
 }
