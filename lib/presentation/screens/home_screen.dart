@@ -5,6 +5,9 @@ import '../../data/services/videojuegos_service.dart';
 import '../widgets/game_card.dart';
 import '../widgets/search_field.dart';
 import 'detalle_screen.dart';
+import '../../logic/favoritos_controller.dart';
+import 'equipo_screen.dart';
+import 'favoritos_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -67,7 +70,37 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Catálogo de Videojuegos')),
+      appBar: AppBar(
+        title: const Text('Catálogo de Videojuegos'),
+        actions: [
+          ListenableBuilder(
+            listenable: FavoritosController.instancia,
+            builder: (context, _) {
+              final total = FavoritosController.instancia.total;
+              return IconButton(
+                tooltip: 'Favoritos',
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const FavoritosScreen()),
+                ),
+                icon: Badge(
+                  isLabelVisible: total > 0,
+                  label: Text('$total'),
+                  child: const Icon(Icons.favorite_border_rounded),
+                ),
+              );
+            },
+          ),
+          IconButton(
+            tooltip: 'Equipo',
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const EquipoScreen()),
+            ),
+            icon: const Icon(Icons.groups_outlined),
+          ),
+        ],
+      ),
       body: Column(
         children: [
           Padding(
